@@ -112,11 +112,12 @@ main p {
 }
 
 article p:first-of-type::first-letter {
-  initial-letter: 2;
-  -webkit-initial-letter: 2;
-  font-weight: bold;
-  font-family: serif;
-  padding: 10px;
+ float: left;
+ font-size: 4em;
+ line-height: 0.8;
+ margin-right: 0.1em;
+ font-weight: bold;
+ font-family: serif;
 }
 
 main > article img {
